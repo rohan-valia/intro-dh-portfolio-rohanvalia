@@ -4,7 +4,7 @@ title: Crowdsourced-Data Normalization with Python and Pandas
 description: This lesson uses crowdsourcing as a form of data creation and explains how pandas can be used to prepare a crowdsourced dataset to be analyzed.
 ---
 ## Source
-[Halle Burns, "Crowdsourced-Data Normalization with Python and Pandas," Programming Historian (2021)](programminghistorian.org/en/lessons/crowdsourced-data-normalization-with-pandas.)
+[Halle Burns, "Crowdsourced-Data Normalization with Python and Pandas," Programming Historian (2021)](https://programminghistorian.org/en/lessons/crowdsourced-data-normalization-with-pandas)
 
 ## Reflection
 Crowdsourcing is the practice of collecting data or information from an outsourced group of people through an online platform. In this example from the Programming Historian, crowdsourcing is used to determine whether longer menus were more popular during certain times of the year using the New York Public Library Historical Menu Dataset.
