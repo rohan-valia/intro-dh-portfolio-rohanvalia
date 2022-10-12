@@ -4,7 +4,6 @@ title: Exercises Ch. 3
 description: Select exercises from Python Crash Course
 ---
 
-
 ```python
 # 3-1
 names = ["Trey","Randy","Ryan"]
@@ -151,5 +150,66 @@ print("Hi "+guests[0]+" and "+guests[1]+", you are still invited to dinner!")
 
 ```python
 # 3-8
+locations = ["Austrailia", "Dubai", "Amsterdam", "Iceland", "Morocco"]
+print(locations)
+```
+
+    ['Austrailia', 'Dubai', 'Amsterdam', 'Iceland', 'Morocco']
+
+
+
+```python
+print(sorted(locations))
+```
+
+    ['Amsterdam', 'Austrailia', 'Dubai', 'Iceland', 'Morocco']
+
+
+
+```python
+print(locations)
+```
+
+    ['Austrailia', 'Dubai', 'Amsterdam', 'Iceland', 'Morocco']
+
+
+
+```python
+locations.reverse()
+print(locations)
+```
+
+    ['Morocco', 'Iceland', 'Amsterdam', 'Dubai', 'Austrailia']
+
+
+
+```python
+locations.reverse()
+print(locations)
+```
+
+    ['Austrailia', 'Dubai', 'Amsterdam', 'Iceland', 'Morocco']
+
+
+
+```python
+locations.sort()
+print(locations)
+```
+
+    ['Amsterdam', 'Austrailia', 'Dubai', 'Iceland', 'Morocco']
+
+
+
+```python
+locations.sort(reverse=True)
+print(locations)
+```
+
+    ['Morocco', 'Iceland', 'Dubai', 'Austrailia', 'Amsterdam']
+
+
+
+```python
 
 ```
