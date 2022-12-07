@@ -1,3 +1,9 @@
+---
+layout: page
+title: Parse TEI Assignment
+description: Here is the Python code for the Parse TEI assignment.
+---
+
 # Parsing a TEI Document - Assignment
 
 ## Instructions
