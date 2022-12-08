@@ -32,35 +32,35 @@ with open('gibbon.xml', encoding='utf8', mode='r') as f:
 
 
 ```python
-# use BeatifulSoup to instntiate tei object
+# use BeautifulSoup to instntiate tei object
 tei_object = BeautifulSoup(tei_string)
 ```
 
 
 ```python
-# find all margin notes
-margin_notes = tei_object.find_all('note', attrs={'place': 'margin'})
+# find all foot notes
+foot_notes = tei_object.find_all('note', attrs={'place': 'bottom'})
 ```
 
 
 ```python
-# clean margin notes and add to a list
-clean_margin_notes = []
-for margin_note in margin_notes:
-    margin_note = re.sub(r'[\ \n]{2,}', '', margin_note.text)
-    clean_margin_notes.append(margin_note)
+# clean foot notes and add to a list
+clean_foot_notes = []
+for foot_note in foot_notes:
+    foot_note = re.sub(r'[\ \n]{2,}', '', foot_note.text)
+    clean_foot_notes.append(foot_note)
 ```
 
 
 ```python
 # convert list to dataframe
-margin_notes_df = pd.DataFrame(clean_margin_notes)
+foot_notes_df = pd.DataFrame(clean_foot_notes)
 ```
 
 
 ```python
 # check dataframe
-margin_notes_df.head()
+foot_notes_df.head()
 ```
 
 
@@ -90,23 +90,23 @@ margin_notes_df.head()
   <tbody>
     <tr>
       <th>0</th>
-      <td>Aureolus invades Italy, is defeated and beſieg...</td>
+      <td>\nPons Aureoli,thirteen miles from Bergamo, an...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>A. D. 268.</td>
+      <td>On the death of Gallienus, ſee Trebellius Poll...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>A. D. 268. March 20. Death of Gallienus.</td>
+      <td>Some ſuppoſed him, oddly enough, to be a baſta...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Character and elevation of the emperor Claudius.</td>
+      <td>\nNotoria,a periodical and official diſpatch w...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Death of Aureolus.</td>
+      <td>Hiſt. Auguſt. p. 208. Gallienus deſcribes the ...</td>
     </tr>
   </tbody>
 </table>
@@ -116,8 +116,8 @@ margin_notes_df.head()
 
 
 ```python
-# save datafram as csv
-margin_notes_df.to_csv('margin_notes.csv')
+# save dataframe as csv
+foot_notes_df.to_csv('foot_notes.csv')
 ```
 
 
