@@ -1,8 +1,10 @@
 ---
 layout: page
-title: "DH Final Project: Examining The Humanity Behind Work-Life Balance"
+title: "Final Project"
 permalink: /final-project/
 ---
+
+## DH Final Project: Examining The Humanity Behind Work-Life Balance
 
 #### By: Rohan Valia
 
