@@ -373,7 +373,7 @@ for i in ax.containers:
 
 
     
-![](Bar%20Graph%201.png)
+![png](Bar%20Graph%201.png)
     
 
 
@@ -394,14 +394,9 @@ sns.heatmap(corr, annot=True, cmap='coolwarm')
 
 
 
-
-    <AxesSubplot:title={'center':'Correlation Between Categories in Dataset'}>
-
-
-
-
+![png](Heatmap.png)
     
-![png](output_12_1.png)
+
     
 
 
@@ -429,7 +424,7 @@ for i in ax.containers:
 
 
     
-![png](output_16_0.png)
+![png](Bar%20Graph%202.png)
     
 
 
@@ -454,7 +449,7 @@ for i in ax.containers:
 
 
     
-![png](output_19_0.png)
+![png](Bar%20Graph%203.png)
     
 
 
@@ -479,8 +474,7 @@ for i in ax.containers:
 ```
 
 
-    
-![png](output_22_0.png)
+![png](Bar%20Graph%204.png)
     
 
 
