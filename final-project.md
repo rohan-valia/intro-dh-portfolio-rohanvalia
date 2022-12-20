@@ -373,7 +373,7 @@ for i in ax.containers:
 
 
     
-![png](output_9_0.png)
+![png](Bar Graph 1.png) 
     
 
 
