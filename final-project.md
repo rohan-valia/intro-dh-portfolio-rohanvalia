@@ -373,7 +373,7 @@ for i in ax.containers:
 
 
     
-![png](Bar%20Graph%201.png)
+![png](BarGraph1.png)
     
 
 
@@ -424,7 +424,7 @@ for i in ax.containers:
 
 
     
-![png](Bar%20Graph%202.png)
+![png](BarGraph2.png)
     
 
 
@@ -449,7 +449,7 @@ for i in ax.containers:
 
 
     
-![png](Bar%20Graph%203.png)
+![png](BarGraph3.png)
     
 
 
@@ -474,7 +474,7 @@ for i in ax.containers:
 ```
 
 
-![png](Bar%20Graph%204.png)
+![png](BarGraph4.png)
     
 
 
